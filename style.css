@@ -3,7 +3,7 @@ Theme Name: Responsive Child
 Template: responsive
 Author: Gerard Greenidge
 Version: 1.9
-Updated: 2019-10-16
+Updated: 2019-07-17
 */
 
 @import url('../responsive/style.css');
@@ -3098,7 +3098,7 @@ body.single-format-standard img.wp-post-image {
 	border: #eee 1px solid;
 }
 
-.single-mc-events .addthis_sharing_toolbox, .single-event .addthis_sharing_toolbox {
+.single-event .addthis_sharing_toolbox {
 	text-align: center;
 	width: 190px;
 	font-size: 12px;
@@ -3276,10 +3276,6 @@ h2.event-title img.category-icon {
 .cal-details-rightcol p iframe {
     max-width: 580px;
 }
-
-/*.page-template-events-page-sidebar .summary {
-    display: none;
-}*/
 
 /* End Calendar Styles */
 
@@ -4325,10 +4321,6 @@ p.sp-layer.sp-animated.homeslide-rockto-benefit{
 
 p.sp-layer.sp-animated.homeslide-rockto-videoback {
    background-color:#D9531E;
-}
-
-li#toplevel_page_activity_log_page {
-    display: none;
 }
 
 /*MOBILE LAYOUT*/
