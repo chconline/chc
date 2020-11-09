@@ -2,8 +2,9 @@
 Theme Name: Responsive Child
 Template: responsive
 Author: Gerard Greenidge
-Version: 2.0
-Updated: 2019-06-17
+Version: 1.9
+Updated: 2019-10-16
+Last modified: 2020-02-18
 */
 
 @import url('../responsive/style.css');
@@ -118,7 +119,7 @@ padding: 0 25px;
 
 #header {
 	margin: 0 auto;
-	background-color: #333333;
+	background-color: #141E39;
 	max-width: 100%;
 	padding: 0 30px 0 30px;
 }
@@ -263,13 +264,13 @@ background: #EDECE9;
 clear: both;
 margin: 0 auto;
 padding: 0;
-background-color: #333;
+background-color: #141E39;
 background-image: none;
 max-width: 100%;
 }
 
 .menu {
-background-color: #333;
+background-color: #141E39;
 background-image: -webkit-gradient(linear, left top, left bottom, from(#585858), to(#3d3d3d));
 background-image: none;
 clear: both;
@@ -646,7 +647,7 @@ padding-top: 5px;
 }
 div.secondary_menu .current-menu-item a {
 background: #fff;
-color: #333;
+color: #141E39;
 text-decoration:none;
 }
 /* Center Menu
@@ -1924,15 +1925,14 @@ font-size: .8em;
 /* Float Google translator right, black text, no text-decoration on hover */
 #footer .goog-te-gadget-simple .goog-te-menu-value {
     color: #000;
-		font-weight: normal;
+		font-weight:normal;
 }
-#text-4 {
+#text-28 {
     float: right;
 }
-#text-4 .goog-te-menu-value:hover {
+#text-28 .goog-te-menu-value:hover {
     text-decoration: none;
 } /* END :: Google Translator */
-
 
 #footer a:hover {
 color: #f26531;
@@ -2781,7 +2781,7 @@ float: left;
 /*min-width: 265px;
 max-width: 265px;*/
 width:30%;
-min-height: 370px;
+min-height: 380px;
 padding: 20px 10px 10px 10px;
 border-right: 1px solid #edece9;
 border-bottom: 1px solid #edece9;
@@ -2792,10 +2792,12 @@ float: left;
 /*min-width: 265px;
 max-width: 265px;*/
 width:30%;
-min-height: 370px;
+min-height: 380px;
 padding: 20px 10px 10px 10px;
 border-bottom: 1px solid #edece9;
 text-align: center;
+	border-left: 1px solid #edece9;
+    border-right: 1px solid #edece9;
 }
 
 body .directory_3col h2, body .directory_3col_right h2 {
@@ -3090,7 +3092,7 @@ body.single-format-standard img.wp-post-image {
 	float: left;
 }
 
-.single-mc-events img.attachment-post-thumbnail.wp-post-image, .single-event img.attachment-post-thumbnail.wp-post-image {
+.single-event img.attachment-post-thumbnail.wp-post-image {
 	width: 200px;
 	float: left;
 	margin: 0 20px 0 0;
@@ -3105,19 +3107,17 @@ body.single-format-standard img.wp-post-image {
 	margin-left: 4px;
 }
 
-
 .single-event p {
 	padding-left: 220px;
 	font-size:14px;
 }
 
-
-.single-mc-events p.daterange, .single-event p.daterange, p.daterange {
+.single-event p.daterange, .mc-events  p.daterange {
 	padding: 0;
 	font-size: 20px;
 }
 
-.single-mc-events h2.event-title.summary, .single-event h2.event-title.summary {
+.single-event h2.event-title.summary {
 	padding: 0;
 }
 
@@ -3273,13 +3273,14 @@ h2.event-title img.category-icon {
 	border: 1px solid #eeeeee;
 }
 
+/* Eventbrite iframe */
 .cal-details-rightcol p iframe {
     max-width: 580px;
 }
 
-.single-event span.summary {
+/*.page-template-events-page-sidebar .summary {
     display: none;
-}
+}*/
 
 /* End Calendar Styles */
 
@@ -4326,18 +4327,10 @@ p.sp-layer.sp-animated.homeslide-rockto-benefit{
 p.sp-layer.sp-animated.homeslide-rockto-videoback {
    background-color:#D9531E;
 }
-/* BREAKFAST PAGES */
-.breakfast-thanks-grid {
-	display: grid;
-	grid-template-columns: 3fr 1fr;
-}
-@media screen and (max-width: 768px) {
-	.grid-container {
-		grid-template-columns: 1fr!important;
-	}
-}
-/* END :: BREAKFAST PAGES */
 
+li#toplevel_page_activity_log_page {
+    display: none;
+}
 
 /*MOBILE LAYOUT*/
 
@@ -4397,7 +4390,7 @@ p.sp-layer.sp-animated.homeslide-rockto-videoback {
 
 #header {
 	margin: 0 auto;
-	background-color: #333333;
+	background-color: #141E39;
 	max-width: 100%;
 	padding: 0;
 	}
@@ -5409,6 +5402,7 @@ body.page-template-the-center-no-sidebar-php .bg_white_box h2 {
 @media screen and (max-width: 320px) {
 
 }
+
 
 
 
